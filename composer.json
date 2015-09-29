@@ -1,5 +1,5 @@
 {
-    "name": "IntoTheSource/Cms",
+    "name": "intothesource/cms",
     "description": "All packages combined to make a standard CMS",
 	"type": "package",
     "require": {
