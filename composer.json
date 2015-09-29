@@ -1,0 +1,14 @@
+{
+    "name": "IntoTheSource/Cms",
+    "description": "All packages combined to make a standard CMS",
+	"type": "package",
+    "require": {
+        "php": ">=5.5.9",
+        "intothesource/Entrance" : "^0.1.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "IntoTheSource\\Cms\\": "src"
+      }
+    }
+}
