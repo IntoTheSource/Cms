@@ -2,9 +2,25 @@
     "name": "intothesource/cms",
     "description": "All packages combined to make a standard CMS",
 	"type": "package",
+    "authors": [
+        {
+            "name": "Douwe de Haan",
+            "email": "ddehaan@intothesource.com",
+            "role": "Full Stack Developer"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
-        "intothesource/Entrance" : "^0.1.1"
+
+        "intothesource/entrance" : "^0.1.1",
+        "intothesource/users": "^0.0.1",
+
+        "laravel/laravel": "5.1.*",
+        "laravel/framework": "5.1.*",
+        "rap2hpoutre/laravel-log-viewer": "^0.3.0",
+        "guzzlehttp/guzzle": "^6.0",
+        "illuminate/html": "^5.0",
+        "laravelista/ekko": "~1.0",
     },
     "autoload": {
       "psr-4": {
